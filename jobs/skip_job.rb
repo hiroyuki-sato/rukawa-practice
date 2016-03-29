@@ -11,6 +11,7 @@ end
 
 
 class SkipJobTwo < Rukawa::Job
+  set_dependency_type :all_success_or_skipped
   def run
     puts "#{self} OK"
   end
