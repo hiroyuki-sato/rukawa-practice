@@ -1,0 +1,4 @@
+adapter: postgresql
+host: localhost
+database: rukawa_test
+#user: username
